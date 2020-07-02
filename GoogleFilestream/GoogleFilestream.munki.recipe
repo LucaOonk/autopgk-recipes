@@ -3,31 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Zoom and imports it into Munki.</string>
+	<string>Downloads the latest version of Google Filestream and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.munki.Zoom</string>
+	<string>com.github.lucaoonk.munki.GoogleFilestream</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Zoom</string>
+		<string>apps/Google-Filestream</string>
 		<key>NAME</key>
-		<string>Zoom</string>
+		<string>Google Filestream</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>zoom.us</string>
+				<string>Google Drive File Stream</string>
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+				<string>autoimport</string>
 			</array>
 			<key>description</key>
-			<string>The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging.</string>
+			<string>Google Filestream</string>
 			<key>developer</key>
-			<string>Zoom Video Communications, Inc.</string>
+			<string>Google, Inc. (EQHXZ8M8AV)</string>
 			<key>display_name</key>
-			<string>Zoom</string>
+			<string>Google Filestream</string>
 			<key>minimum_os_version</key>
 			<string>10.7</string>
 			<key>name</key>
@@ -39,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.homebysix.pkg.Zoom</string>
+	<string>com.github.lucaoonk.download.GoogleFilestream</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -49,7 +49,7 @@
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>installs_item_paths</key>
 				<array>
-					<string>/Applications/zoom.us.app</string>
+					<string>/Applications/Google Drive File Stream.app</string>
 				</array>
 				<key>version_comparison_key</key>
 				<string>CFBundleVersion</string>
