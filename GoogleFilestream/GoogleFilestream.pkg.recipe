@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.lucaoonk.pkg.GoogleDriveFileStream</string>
+	<string>com.github.lucaoonk.pkg.GoogleDriveFilestream</string>
 	<key>Description</key>
 	<string>Downloads the latest version of Google Drive File Stream and creates a package.</string>
 	<key>Input</key>
@@ -12,7 +12,7 @@
 		<string>Google Drive File Stream</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.lucaoonk.download.GoogleDriveFileStream</string>
+	<string>com.github.lucaoonk.download.GoogleDriveFilestream</string>
 	<key>Process</key>
 	<array>
 	  <dict>
