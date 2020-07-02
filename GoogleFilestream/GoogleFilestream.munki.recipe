@@ -20,7 +20,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>autoimport</string>
+				<string>AutoImport</string>
 			</array>
 			<key>description</key>
 			<string>Google Filestream</string>
