@@ -45,7 +45,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_path</key>
-                <string>%pathname%</string>
+                <string>%pathname%/GoogleDriveFileStream.pkg</string>
                 <key>exepected_authority_names</key>
                     <array>
                         <string>Developer ID Installer: Google, Inc. (EQHXZ8M8AV)</string>
