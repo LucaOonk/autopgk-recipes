@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest version of Google Filestream.</string>
     <key>Identifier</key>
-    <string>com.github.lucaoonk.download.googlefilestream</string>
+    <string>com.github.lucaoonk.download.GoogleFilestream</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

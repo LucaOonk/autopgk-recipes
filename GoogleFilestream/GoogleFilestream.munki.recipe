@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Google Filestream and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.lucaoonk.munki.googlefilestream</string>
+	<string>com.github.lucaoonk.munki.GoogleFilestream</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -39,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.lucaoonk.download.googlefilestream</string>
+	<string>com.github.lucaoonk.download.GoogleFilestream</string>
 	<key>Process</key>
 	<array>
 		<dict>
