@@ -11,7 +11,7 @@
 		<key>BUNDLE_ID</key>
 		<string>GoogleDriveFileStream</string>
 		<key>NAME</key>
-		<string>Google Filestream</string>
+		<string>GoogleFilestream</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
