@@ -12,7 +12,7 @@
         <string>GoogleDriveFilestream</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>ccom.github.lucaoonk.download.GoogleFilestream</string>
+    <string>com.github.lucaoonk.download.GoogleFilestream</string>
     <key>Process</key>
     <array>
         <dict>
