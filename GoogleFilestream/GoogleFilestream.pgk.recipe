@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.lucaoonk.download.GoogleFilestream</string>
+	<string>com.github.lucaoonk.pkg.GoogleFilestream</string>
 	<key>Process</key>
 	<array>
 		<dict>
