@@ -3,31 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Google Filestream and imports it into Munki.</string>
+	<string>Downloads the latest version of Leitz Icon and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.lucaoonk.munki.GoogleDriveFilestream</string>
+	<string>com.github.lucaoonk.munki.LeitzIcon</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Google-Filestream</string>
+		<string>apps/Leitz-Icon</string>
 		<key>NAME</key>
-		<string>Google Filestream</string>
+		<string>Leitz Icon Software</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>Google Drive File Stream</string>
+				<string>Leitz Icon Software</string>
 			</array>
 			<key>catalogs</key>
 			<array>
 				<string>AutoImport</string>
 			</array>
 			<key>description</key>
-			<string>Google Filestream</string>
+			<string>Leitz Icon Software</string>
 			<key>developer</key>
-			<string>Google, Inc. (EQHXZ8M8AV)</string>
+			<string>Esselte Corporation (9B35K5RS5T)</string>
 			<key>display_name</key>
-			<string>Google Filestream</string>
+			<string>Leitz Icon Software</string>
 			<key>minimum_os_version</key>
 			<string>10.7</string>
 			<key>name</key>
@@ -39,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.lucaoonk.pkg.GoogleDriveFilestream</string>
+	<string>com.github.lucaoonk.pkg.LeitzIcon</string>
 	<key>Process</key>
     <array>
         <dict>
