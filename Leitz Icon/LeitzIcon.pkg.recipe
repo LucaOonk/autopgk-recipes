@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.lucaoonk.pkg.GoogleDriveFilestream</string>
+	<string>com.github.lucaoonk.pkg.LeitzIcon</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Google Drive File Stream and creates a package.</string>
+	<string>Downloads the latest version of LeitzIcon and creates a package.</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Google Drive File Stream</string>
+		<string>LeitzIcon</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.lucaoonk.download.GoogleDriveFilestream</string>
+	<string>com.github.lucaoonk.download.LeitzIcon</string>
 	<key>Process</key>
 	<array>
 	  <dict>
@@ -23,7 +23,7 @@
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/expanded</string>
 				<key>flat_pkg_path</key>
-				<string>%pathname%/GoogleDriveFileStream.pkg</string>
+				<string>%pathname%/LeitzIconSoftware-Installer.mpkg</string>
 			</dict>
 		</dict>
 		<dict>
@@ -34,7 +34,7 @@
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpack</string>
 				<key>pkg_payload_path</key>
-				<string>%RECIPE_CACHE_DIR%/expanded/GoogleDriveFileStream.pkg/Payload</string>
+				<string>%RECIPE_CACHE_DIR%/expanded/LeitzIconSoftware-Installer.mpkg/Payload</string>
 				<key>purge_destination</key>
 				<string>true</string>
 			</dict>
@@ -45,7 +45,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpack/Google Drive File Stream.app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/unpack/Leitz Icon Software.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>
@@ -56,9 +56,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>source_pkg</key>
-				<string>%pathname%/GoogleDriveFileStream.pkg</string>
+				<string>%pathname%/LeitzIconSoftware-Installer.mpkg</string>
 				<key>pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.mpkg</string>
 			</dict>
 		</dict>
 		<dict>
