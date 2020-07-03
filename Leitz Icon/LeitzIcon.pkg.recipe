@@ -23,7 +23,7 @@
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/expanded</string>
 				<key>flat_pkg_path</key>
-				<string>%pathname%/LeitzIconSoftware.pkg</string>
+				<string>%pathname%/LeitzIconSoftware-Installer.mpkg</string>
 			</dict>
 		</dict>
 		<dict>
