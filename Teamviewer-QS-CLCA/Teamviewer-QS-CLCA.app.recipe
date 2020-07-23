@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.lucaoonk.pkg.GoogleDriveFilestream</string>
+	<string>com.github.lucaoonk.app.Teamviewer-QS-CLCA</string>
 	<key>Description</key>
 	<string>Downloads the latest version of Google Drive File Stream and creates a package.</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Google Drive File Stream</string>
+		<string>Teamviewer QS CLCA</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.lucaoonk.download.GoogleDriveFilestream</string>
+	<string>com.github.lucaoonk.download.Teamviewer-QS-CLCA</string>
 	<key>Process</key>
 	<array>
-	  <dict>
+	  <!-- <dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
 			<key>Arguments</key>
@@ -60,7 +60,7 @@
 				<key>pkg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>Processor</key>
 			<string>PathDeleter</string>
