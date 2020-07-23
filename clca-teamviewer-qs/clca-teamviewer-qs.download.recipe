@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Teamviewer QS CLCA</string>
+        <string>CLCA Teamviewer QS</string>
         <key>DOWNLOAD_URL</key>
         <string>https://customdesign.teamviewer.com/download/version_15x/cyzqem3_mac/TeamViewerQS.zip</string>
         <key>USER_AGENT</key>
