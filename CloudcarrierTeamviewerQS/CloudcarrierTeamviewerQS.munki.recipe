@@ -45,17 +45,19 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>app_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/TeamViewerQS.app</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/</string>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/TeamViewerQS.dmg</string>
 			</dict>
 			<key>Processor</key>
-            <string>AppPkgCreator</string>
+            <string>DmgCreator</string>
 		</dict>
         <dict>
             <key>Arguments</key>
             <dict>
                 <key>pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/TeamViewerQS-%version%.pkg</string>
+                <string>%RECIPE_CACHE_DIR%/TeamViewerQS.dmg</string>
                 <key>repo_subdirectory</key>
                 <string>%MUNKI_REPO_SUBDIR%</string>
             </dict>
