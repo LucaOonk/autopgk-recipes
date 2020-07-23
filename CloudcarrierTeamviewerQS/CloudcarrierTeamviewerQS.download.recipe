@@ -48,6 +48,7 @@
                 <string>%pathname%</string>
             </dict>
         </dict>
+        <dict>
             <key>Processor</key>
             <string>CodeSignatureVerifier</string>
             <key>Arguments</key>
