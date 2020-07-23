@@ -57,7 +57,7 @@
                 <string>%pathname%</string>
                 <key>exepected_authority_names</key>
                     <array>
-                        <string>Developer ID Installer: Google, Inc. (EQHXZ8M8AV)</string>
+                        <string>Developer ID Application: TeamViewer GmbH (H7UGFBUGV6)</string>
                         <string>Developer ID Certification Authority</string>
                         <string>Apple Root CA</string>
                     </array>

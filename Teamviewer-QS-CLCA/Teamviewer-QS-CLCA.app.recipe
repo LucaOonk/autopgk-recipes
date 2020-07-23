@@ -15,6 +15,18 @@
 	<string>com.github.lucaoonk.download.Teamviewer-QS-CLCA</string>
 	<key>Process</key>
 	<array>
+		<dict>
+			<key>Processor</key>
+			<string>Unarchiver</string>
+			<key>Arguments</key>
+			<dict>
+				<key>archive_path</key>
+				<string>%RECIPE_CACHE_DIR%</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%/GoogleDriveFileStream.pkg</string>
+			</dict>
+		</dict>
+
 	  <!-- <dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
