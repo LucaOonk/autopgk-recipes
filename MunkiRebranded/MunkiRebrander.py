@@ -27,6 +27,18 @@ __all__ = ["MunkiRebrander"]
 
 
 class MunkiRebrander():
+"""Download the FortiClient full installer with the provided FortiClientVPNOnlineDownloader"""
+
+    """Mounts the FortiClientVPN Online installer and download the Full-Installer
+    for automated deployment."""
+    description = __doc__
+    input_variables = {
+        "dmg_path": {
+            "required": False,
+            "description": "Path to a dmg containing the FortiClientVPN Online Installer.",
+        }
+    }
+    output_variables = {"pkg_path": "Path to the Full-Installer package."}
 
     def main(self):
 
