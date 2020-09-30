@@ -302,9 +302,6 @@ MUNKI_ICON should be overridden with your icon name.
         <dict>
           <key>Processor</key>
           <string>MunkiRebrander</string>
-          <key>Arguments</key>
-          <dict>
-          </dict>
         </dict>
 	   
         <dict>
