@@ -49,7 +49,7 @@ class MunkiRebrander():
         srcIcon = 'AppIcon.icns'
 
         # Git release tag (leave empty for latest build)
-        tag = 'v2.2.4'
+        tag = ''
 
         ### Probably don't need to edit below this line
 
