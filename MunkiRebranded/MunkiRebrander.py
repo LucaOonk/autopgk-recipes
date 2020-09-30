@@ -27,7 +27,7 @@ __all__ = ["MunkiRebrander"]
 
 
 class MunkiRebrander():
-"""Download the FortiClient full installer with the provided FortiClientVPNOnlineDownloader"""
+    """Download the FortiClient full installer with the provided FortiClientVPNOnlineDownloader"""
 
     """Mounts the FortiClientVPN Online installer and download the Full-Installer
     for automated deployment."""
